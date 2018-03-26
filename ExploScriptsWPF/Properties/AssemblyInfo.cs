@@ -7,11 +7,11 @@ using System.Windows;
 // Allgemeine Informationen über eine Assembly werden über die folgenden 
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 // die einer Assembly zugeordnet sind.
-[assembly: AssemblyTitle("ExploScriptsWPF")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("ExploScripts")]
+[assembly: AssemblyDescription("A lightweight Windows explorer context menu python script manager.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ExploScriptsWPF")]
+[assembly: AssemblyProduct("ExploScripts")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

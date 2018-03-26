@@ -3,7 +3,7 @@
 is a lightweight Windows explorer context menu python script manager. ExploScripts offers you simple possibility to manage the context menu of the Windows explorer and link it with customizable Python scripts.
 
 ## Installation
-1. Download the latest executable: https://github.com/TuLux1/ExploScripts/blob/master/ExploScriptsWPF/bin/Release/ExploScripts.exe
+1. Download the latest executable: https://github.com/TuLux1/ExploScripts/raw/master/ExploScriptsWPF/bin/Release/ExploScripts.exe
 2. Recommended: Create a ExploScripts directory, for example within your My Documents folder.
 3. Run it the first time! The configuration program needs admin privileges.
 

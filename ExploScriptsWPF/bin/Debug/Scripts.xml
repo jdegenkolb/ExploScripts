@@ -6,7 +6,7 @@
     <Caption>test1</Caption>
   </ExploScript>
   <ExploScript>
-    <Active>false</Active>
+    <Active>true</Active>
     <Name>test2</Name>
     <Caption>Monte-Carlo</Caption>
   </ExploScript>

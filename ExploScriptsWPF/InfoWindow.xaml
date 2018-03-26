@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ExploScripts"
         mc:Ignorable="d"
-        Title="ExploScripts - Info" Height="300" Width="300" WindowStartupLocation="CenterOwner">
+        Title="ExploScripts - Info" Height="85.714" Width="300" WindowStartupLocation="CenterOwner">
     <Grid>
-        
+        <Label x:Name="label" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Sorry, currently there's nothing here :/." Margin="10"/>
+
     </Grid>
 </Window>

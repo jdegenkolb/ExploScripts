@@ -1,0 +1,36 @@
+c:\users\jonas\documents\visual studio 2015\Projects\ExploScriptsWPF\ExploScriptsWPF\obj\Debug\ExploScriptsWPF.csprojResolveAssemblyReference.cache
+c:\users\jonas\documents\visual studio 2015\Projects\ExploScriptsWPF\ExploScriptsWPF\obj\Debug\MainWindow.g.cs
+c:\users\jonas\documents\visual studio 2015\Projects\ExploScriptsWPF\ExploScriptsWPF\obj\Debug\App.g.cs
+c:\users\jonas\documents\visual studio 2015\Projects\ExploScriptsWPF\ExploScriptsWPF\obj\Debug\MainWindow.baml
+c:\users\jonas\documents\visual studio 2015\Projects\ExploScriptsWPF\ExploScriptsWPF\obj\Debug\ExploScriptsWPF.Properties.Resources.resources
+c:\users\jonas\documents\visual studio 2015\Projects\ExploScriptsWPF\ExploScriptsWPF\obj\Debug\ExploScriptsWPF.csproj.GenerateResource.Cache
+c:\users\jonas\documents\visual studio 2015\Projects\ExploScriptsWPF\ExploScriptsWPF\obj\Debug\InfoWindow.g.cs
+c:\users\jonas\documents\visual studio 2015\Projects\ExploScriptsWPF\ExploScriptsWPF\obj\Debug\NewWindow.g.cs
+c:\users\jonas\documents\visual studio 2015\Projects\ExploScriptsWPF\ExploScriptsWPF\obj\Debug\InfoWindow.baml
+c:\users\jonas\documents\visual studio 2015\Projects\ExploScriptsWPF\ExploScriptsWPF\obj\Debug\NewWindow.baml
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\ExploScriptsWPF\ExploScriptsWPF\bin\Debug\ExploScripts.exe.config
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\ExploScriptsWPF\ExploScriptsWPF\bin\Debug\ExploScripts.exe
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\ExploScriptsWPF\ExploScriptsWPF\bin\Debug\ExploScripts.pdb
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\ExploScriptsWPF\ExploScriptsWPF\obj\Debug\ExploScripts_MarkupCompile.cache
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\ExploScriptsWPF\ExploScriptsWPF\obj\Debug\ExploScripts_MarkupCompile.lref
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\ExploScriptsWPF\ExploScriptsWPF\obj\Debug\ExploScripts.g.resources
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\ExploScriptsWPF\ExploScriptsWPF\obj\Debug\ExploScripts.exe
+C:\Users\Jonas\Documents\Visual Studio 2015\Projects\ExploScriptsWPF\ExploScriptsWPF\obj\Debug\ExploScripts.pdb
+C:\Users\Jonas\Source\Repos\ExploScripts\ExploScriptsWPF\bin\Debug\ExploScripts.exe.config
+C:\Users\Jonas\Source\Repos\ExploScripts\ExploScriptsWPF\obj\Debug\ExploScripts.exe
+C:\Users\Jonas\Source\Repos\ExploScripts\ExploScriptsWPF\obj\Debug\ExploScripts.pdb
+C:\Users\Jonas\Source\Repos\ExploScripts\ExploScriptsWPF\bin\Debug\ExploScripts.exe
+C:\Users\Jonas\Source\Repos\ExploScripts\ExploScriptsWPF\bin\Debug\ExploScripts.pdb
+C:\Users\Jonas\Source\Repos\ExploScripts\ExploScriptsWPF\obj\Debug\ExploScriptsWPF.csprojResolveAssemblyReference.cache
+C:\Users\Jonas\Source\Repos\ExploScripts\ExploScriptsWPF\obj\Debug\InfoWindow.g.cs
+C:\Users\Jonas\Source\Repos\ExploScripts\ExploScriptsWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Jonas\Source\Repos\ExploScripts\ExploScriptsWPF\obj\Debug\NewWindow.g.cs
+C:\Users\Jonas\Source\Repos\ExploScripts\ExploScriptsWPF\obj\Debug\App.g.cs
+C:\Users\Jonas\Source\Repos\ExploScripts\ExploScriptsWPF\obj\Debug\ExploScripts_MarkupCompile.cache
+C:\Users\Jonas\Source\Repos\ExploScripts\ExploScriptsWPF\obj\Debug\ExploScripts_MarkupCompile.lref
+C:\Users\Jonas\Source\Repos\ExploScripts\ExploScriptsWPF\obj\Debug\InfoWindow.baml
+C:\Users\Jonas\Source\Repos\ExploScripts\ExploScriptsWPF\obj\Debug\MainWindow.baml
+C:\Users\Jonas\Source\Repos\ExploScripts\ExploScriptsWPF\obj\Debug\NewWindow.baml
+C:\Users\Jonas\Source\Repos\ExploScripts\ExploScriptsWPF\obj\Debug\ExploScripts.g.resources
+C:\Users\Jonas\Source\Repos\ExploScripts\ExploScriptsWPF\obj\Debug\ExploScriptsWPF.Properties.Resources.resources
+C:\Users\Jonas\Source\Repos\ExploScripts\ExploScriptsWPF\obj\Debug\ExploScriptsWPF.csproj.GenerateResource.Cache

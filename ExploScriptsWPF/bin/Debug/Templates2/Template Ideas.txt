@@ -1,0 +1,6 @@
+- Copy Files here (list)
+- Copy Files and execute one here
+- Generate config file/s with prompt
+- Generate config file/s with template
+- Process a file (e.g. remove duplicates)
+- Blank

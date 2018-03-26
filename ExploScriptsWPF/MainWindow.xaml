@@ -1,0 +1,29 @@
+﻿<Window x:Class="ExploScriptsWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExploScriptsWPF"
+        mc:Ignorable="d"
+        Title="ExploScripts" Height="531.373" Width="615.196" WindowStartupLocation="CenterScreen" Deactivated="Window_Deactivated">
+    <Grid>
+        <DataGrid x:Name="dataGrid" CanUserDeleteRows="False" AutoGenerateColumns="False" CanUserAddRows="False" Margin="0,35,0,0" PreviewKeyDown="dataGrid_PreviewKeyDown">
+            <DataGrid.Columns>
+                <DataGridCheckBoxColumn Header="Active" Binding="{Binding Active, Mode=TwoWay}" />
+                <DataGridTextColumn Header="Caption" Width="300" Binding="{Binding Caption, Mode=TwoWay}" FontWeight="Bold" />
+                <DataGridHyperlinkColumn Header="Name" Width="*" Binding="{Binding Name, Mode=TwoWay}" IsReadOnly="True">
+                    <DataGridHyperlinkColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="Background" Value="White" />
+                            <EventSetter Event="Hyperlink.Click" Handler="DG_Hyperlink_Click"/>
+                        </Style>
+                    </DataGridHyperlinkColumn.ElementStyle>
+                </DataGridHyperlinkColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="btnNew" Content="New..." HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Click="btnNew_Click"/>
+        <Button x:Name="btnInfo" Content="Info" Margin="0,10,10,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="100" Click="btnInfo_Click"/>
+        <Label x:Name="label" HorizontalContentAlignment="Center" Content="(c) 2018 by Jonas Degenkolb" Margin="220,7,115,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnOpenDir" Content="Open Directory" HorizontalAlignment="Left" Margin="115,10,0,0" VerticalAlignment="Top" Width="100" Click="btnOpenDir_Click"/>
+    </Grid>
+</Window>

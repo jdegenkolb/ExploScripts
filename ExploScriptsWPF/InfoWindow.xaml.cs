@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace ExploScriptsWPF
+namespace ExploScripts
 {
     /// <summary>
     /// Interaktionslogik für InfoWindow.xaml

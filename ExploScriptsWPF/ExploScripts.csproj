@@ -7,7 +7,7 @@
     <ProjectGuid>{6B435BB1-658D-4DAA-AAF9-B46738EFE88B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ExploScriptsWPF</RootNamespace>
+    <RootNamespace>ExploScripts</RootNamespace>
     <AssemblyName>ExploScripts</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

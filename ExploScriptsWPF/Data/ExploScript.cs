@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExploScriptsWPF.Data
+namespace ExploScripts.Data
 {
     public class ExploScript
     {

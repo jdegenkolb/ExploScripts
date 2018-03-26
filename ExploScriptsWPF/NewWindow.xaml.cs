@@ -11,11 +11,11 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.IO;
-using ExploScriptsWPF.Data;
+using ExploScripts.Data;
 using System.Collections.ObjectModel;
 using System.Text.RegularExpressions;
 
-namespace ExploScriptsWPF
+namespace ExploScripts
 {
     /// <summary>
     /// Interaktionslogik für NewWindow.xaml
@@ -58,12 +58,12 @@ namespace ExploScriptsWPF
         private void InstallTemplates()
         {
             Directory.CreateDirectory("Templates");
-            File.WriteAllBytes("Templates\\Blank.py", ExploScriptsWPF.Properties.Resources.Blank);
-            File.WriteAllBytes("Templates\\CopyFiles.py", ExploScriptsWPF.Properties.Resources.CopyFiles);
-            File.WriteAllBytes("Templates\\CopyFilesAndExecute.py", ExploScriptsWPF.Properties.Resources.CopyFilesAndExecute);
-            File.WriteAllBytes("Templates\\CreateConfigFile.py", ExploScriptsWPF.Properties.Resources.CreateConfigFile);
-            File.WriteAllBytes("Templates\\CreateConfigFileFromTemplate.py", ExploScriptsWPF.Properties.Resources.CreateConfigFileFromTemplate);
-            File.WriteAllBytes("Templates\\ProcessFile.py", ExploScriptsWPF.Properties.Resources.ProcessFile);
+            File.WriteAllBytes("Templates\\Blank.py", ExploScripts.Properties.Resources.Blank);
+            File.WriteAllBytes("Templates\\CopyFiles.py", ExploScripts.Properties.Resources.CopyFiles);
+            File.WriteAllBytes("Templates\\CopyFilesAndExecute.py", ExploScripts.Properties.Resources.CopyFilesAndExecute);
+            File.WriteAllBytes("Templates\\CreateConfigFile.py", ExploScripts.Properties.Resources.CreateConfigFile);
+            File.WriteAllBytes("Templates\\CreateConfigFileFromTemplate.py", ExploScripts.Properties.Resources.CreateConfigFileFromTemplate);
+            File.WriteAllBytes("Templates\\ProcessFile.py", ExploScripts.Properties.Resources.ProcessFile);
         }
 
         private void btnFinish_Click(object sender, RoutedEventArgs e)

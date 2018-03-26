@@ -1,4 +1,4 @@
-﻿using ExploScriptsWPF.Data;
+﻿using ExploScripts.Data;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -16,7 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ExploScriptsWPF
+namespace ExploScripts
 {
     /// <summary>
     /// Interaktionslogik für MainWindow.xaml

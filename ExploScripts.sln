@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExploScriptsWPF", "ExploScriptsWPF\ExploScriptsWPF.csproj", "{6B435BB1-658D-4DAA-AAF9-B46738EFE88B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExploScripts", "ExploScriptsWPF\ExploScripts.csproj", "{6B435BB1-658D-4DAA-AAF9-B46738EFE88B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

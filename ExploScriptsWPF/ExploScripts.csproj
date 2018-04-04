@@ -40,6 +40,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -133,6 +134,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\Templates\ProcessFile.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\dir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\new.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

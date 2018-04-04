@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfExploScript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ExploScript>
-    <Active>false</Active>
+    <Active>true</Active>
     <Name>test1</Name>
     <Caption>test1</Caption>
   </ExploScript>
@@ -13,6 +13,6 @@
   <ExploScript>
     <Active>true</Active>
     <Name>test</Name>
-    <Caption>test</Caption>
+    <Caption>Wow this is weird</Caption>
   </ExploScript>
 </ArrayOfExploScript>

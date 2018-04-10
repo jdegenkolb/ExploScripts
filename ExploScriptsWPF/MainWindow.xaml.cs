@@ -35,20 +35,38 @@ namespace ExploScripts
 
         private void Initialize()
         {
+            // When the program is run by the context menu entry, the working directory is not correct.
+            // So the correct working directory (where ExploScripts is installed) is passed as a command line arg.           
             if (Environment.GetCommandLineArgs().Length >= 2)
             {
                 Directory.SetCurrentDirectory(Environment.GetCommandLineArgs()[1]);
             }
 
+            // Initialize the script database and setup the data binding to the view
             db = new ExploScriptDatabase();
+
+            if (db.NewInstall)
+            {
+                string msg = "Hello! It seems like this is your first execution of ExploScripts. I will now install " +
+                    "ExploScripts in this folder. That means all your scripts and templates will be stored here. " +
+                    "It is recommended to install ExploScripts in an own folder inside your Documents folder.\nDo you want to continue?";
+
+                MessageBoxResult res = MessageBox.Show(msg, "Installation", MessageBoxButton.YesNo, MessageBoxImage.Question);
+
+                if (res == MessageBoxResult.No)
+                {
+                    Environment.Exit(0);
+                }
+            }
+
+            db.Initialize();
             dataGrid.ItemsSource = db.Scripts;
-            // listView.ItemsSource = db.Scripts;
-            // dataGrid.ItemsSource = db.Scripts;
             cmh = new ContextMenuHandler(db.Scripts);
         }
 
         private void DG_Hyperlink_Click(object sender, RoutedEventArgs e)
         {
+            // Open the script containing folder on hyperlink click
             Hyperlink link = (Hyperlink)e.OriginalSource;
             string dir = @"Scripts\" + link.NavigateUri.ToString();
 
@@ -78,6 +96,7 @@ namespace ExploScripts
         {
             InfoWindow infoWin = new InfoWindow();
             infoWin.Owner = this;
+            infoWin.Cmh = cmh;
             infoWin.Show();
         }
 
@@ -98,6 +117,7 @@ namespace ExploScripts
 
         private void Window_Deactivated(object sender, EventArgs e)
         {
+            // Finish the current entry (to make sure all changes are commited)
             dataGrid.CommitEdit(DataGridEditingUnit.Row, true);
             db.SaveDatabase();
 

@@ -5,9 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ExploScripts"
         mc:Ignorable="d"
-        Title="ExploScripts - Info" Height="85.714" Width="300" WindowStartupLocation="CenterOwner">
+        Title="ExploScripts - Settings &amp; Info" Height="235.047" Width="302" WindowStartupLocation="CenterOwner">
     <Grid>
-        <Label x:Name="label" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Sorry, currently there's nothing here :/." Margin="10"/>
-
+        <Button x:Name="btnUninstall" Content="Uninstall" Margin="10,0,10,10" Height="30" VerticalAlignment="Bottom" Click="btnUninstall_Click"/>
+        <Label
+       Target="{Binding ElementName=textBox1}" Margin="10,10,10,45">
+            <TextBlock TextWrapping="WrapWithOverflow">
+                Thank you for using ExploScripts!
+                <LineBreak />
+                At the moment the only thing you can do here is uninstalling ExploScripts... but do you really want that?
+                <LineBreak />
+                <LineBreak />
+                <Hyperlink NavigateUri="https://github.com/TuLux1/ExploScripts" RequestNavigate="OnRequestNavigate">Open the ExploScripts GitHub page!</Hyperlink>
+                <LineBreak />
+                <LineBreak />
+                (c) 2018 Jonas Degenkolb
+            </TextBlock>
+        </Label>
     </Grid>
 </Window>

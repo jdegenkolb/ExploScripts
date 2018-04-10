@@ -13,19 +13,26 @@ namespace ExploScripts.Data
     {
         private const string DBFILE = "Scripts.xml";
 
+        public bool NewInstall { get; private set; }
+
         [XmlArray("ExploScriptList")]
         public ObservableCollection<ExploScript> Scripts { get; private set; }
 
         public ExploScriptDatabase()
         {
-            if (File.Exists(DBFILE))
-            {
-                LoadDatabase();
-            }
-            else
+            NewInstall = !File.Exists(DBFILE);
+        }
+
+        public void Initialize()
+        {
+            if (NewInstall)
             {
                 Scripts = new ObservableCollection<ExploScript>();
                 SaveDatabase();
+            }
+            else
+            {
+                LoadDatabase();
             }
         }
 

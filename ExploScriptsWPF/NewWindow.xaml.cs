@@ -86,7 +86,7 @@ namespace ExploScripts
             }
 
             Directory.CreateDirectory("Scripts\\" + es.Name);
-            File.Copy("Templates\\" + cmbTemplates.SelectedItem.ToString(), "Scripts\\" + es.Name + "\\" + es.Name + ".py");
+            File.Copy("Templates\\" + cmbTemplates.SelectedItem.ToString(), "Scripts\\" + es.Name + "\\" + es.Name + ".py", true);
 
             NewScript = es;
             DialogResult = true;

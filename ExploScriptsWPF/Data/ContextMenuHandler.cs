@@ -9,7 +9,7 @@ using System.Collections.ObjectModel;
 
 namespace ExploScripts.Data
 {
-    class ContextMenuHandler
+    public class ContextMenuHandler
     {
         ObservableCollection<ExploScript> scripts;
 
@@ -25,7 +25,7 @@ namespace ExploScripts.Data
             CreateScriptEntries();
         }
 
-        private void Clear()
+        public void Clear()
         {
             // 1. Clear Base Entry
             string regPath = @"Software\Classes\Directory\Background\shell\";

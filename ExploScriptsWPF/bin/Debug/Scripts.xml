@@ -2,17 +2,7 @@
 <ArrayOfExploScript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ExploScript>
     <Active>true</Active>
-    <Name>test1</Name>
-    <Caption>test1</Caption>
-  </ExploScript>
-  <ExploScript>
-    <Active>true</Active>
-    <Name>test2</Name>
-    <Caption>Monte-Carlo</Caption>
-  </ExploScript>
-  <ExploScript>
-    <Active>true</Active>
     <Name>test</Name>
-    <Caption>Wow this is weird</Caption>
+    <Caption>Eine Caption!</Caption>
   </ExploScript>
 </ArrayOfExploScript>
